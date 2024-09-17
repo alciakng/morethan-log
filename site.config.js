@@ -1,25 +1,25 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "JongHwan Kim",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    role: "backend developer/data scientist",
+    bio: "데이터분석에 관심이 많은 개발자입니다.",
+    email: "kjhweb@outlook.kr",
+    linkedin: "종환-김-947585329",
+    github: "alciakng",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `JongHwan Kim`,
+      href: "https://www.rocketpunch.com/@kjhweb4938",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "JongHwan Kim Blog",
+    description: "데이터분석에 관심이 많은 개발자입니다.",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
@@ -54,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
